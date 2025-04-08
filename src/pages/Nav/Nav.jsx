@@ -1,220 +1,79 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
 const Nav = () => {
-    return (
-        <section>
-        
-        <div className="navbar fixed z-10 text-black py-2 lg:px-14">
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-8 w-8 text-white"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul
-                            tabIndex={0}
-                            className="menu menu-sm dropdown-content   z-[1] w-[100vh] p-2 shadow  space-y-3 font-semibold bg-gradient-to-r from-[rgba(25,0,42,0.8)] to-[rgba(28,5,37,0.8)]">
-
-                            <Link
-                                to="home"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                Home
-                            </Link>
-
-                            <Link
-                                to="about"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                About
-                            </Link>
-
-
-                            <Link
-                                to="skills"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                Skills
-                            </Link>
-
-
-                            <Link
-                                to="projects"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                Projects
-                            </Link>
-
-
-
-                            <Link
-                                to="education"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                Education
-                            </Link>
-
-                            <Link
-                                to="blogs"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base hidden font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                Blogs
-                            </Link>
-
-
-                            <Link
-                                to="contact"
-                                smooth={true}
-                                duration={1000}
-
-                                className="text-base font-semibold hover:text-purple-600 cursor-pointer"
-                            >
-                                Contact
-                            </Link>
-
-
-
-
-
-                        </ul>
-                    </div>
-                    <a className="text-4xl lg:block hidden font-bold  font-mono"><span className="text-purple-600 ">News</span> Portal</a>
-
-                </div>
-                <a className="btn btn-ghost text-xl   lg:hidden navbar-end "><span className="text-purple-600 ">Tofayel</span> Ahmed</a>
-
-                <div className="lg:navbar-end hidden lg:flex ">
-                    <ul className="menu menu-horizontal px-1 space-x-6   font-mono lg:mr-3">
-
-                        {/* this "Link" import from react scroll not react dom */}
-                        <Link
-                            to="home"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            Home
-                        </Link>
-
-                        <Link
-                            to="about"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            About
-                        </Link>
-
-                        <Link
-                            to="skills"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            Skills
-                        </Link>
-
-
-                        <Link
-                            to="projects"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            Projects
-                        </Link>
-
-
-
-                        <Link
-                            to="education"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            Education
-                        </Link>
-
-                        <Link
-                            to="blogs"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium  hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            Blogs
-                        </Link>
-
-
-                        <Link
-                            to="contact"
-                            smooth={true}
-                            duration={1000}
-
-                            className="text-lg font-medium hover:border-b-2 hover:border-purple-600 cursor-pointer"
-                        >
-                            Contact
-                        </Link>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </ul>
-                </div>
-
-            </div>
-
-
-        </section>
-    );
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navItems = [
+    { path: '/', label: 'Home' },
+    { path: '/all-news', label: 'All News' },
+    { path: '/breaking', label: 'Breaking News' },
+    { path: '/regular', label: 'Regular News' },
+    { path: '/international', label: 'International' },
+    { path: '/sports', label: 'Sports' },
+    { path: '/entertainment', label: 'Entertainment' },
+  ];
+
+  return (
+    <nav className="w-full fixed z-50 top-0 bg-white shadow">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          {/* Logo */}
+          <div className="flex-shrink-0 text-2xl font-bold font-mono">
+            <Link to="/">
+              <span className="text-purple-600">News</span> Portal
+            </Link>
+          </div>
+
+          {/* Desktop Nav */}
+          <div className="hidden md:flex space-x-6">
+            {navItems.map(({ path, label }) => (
+              <Link
+                key={path}
+                to={path}
+                className="text-gray-800 text-base hover:text-purple-600 transition-colors duration-200"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              type="button"
+              className="text-gray-800 hover:text-purple-600 focus:outline-none"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8h16M4 16h16" />
+                )}
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Dropdown */}
+      {isOpen && (
+        <div className="md:hidden px-4 pt-2 pb-4 space-y-2 bg-white shadow">
+          {navItems.map(({ path, label }) => (
+            <Link
+              key={path}
+              to={path}
+              onClick={() => setIsOpen(false)}
+              className="block text-gray-800 text-base hover:text-purple-600 transition-colors duration-200"
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
+      )}
+    </nav>
+  );
 };
 
 export default Nav;
