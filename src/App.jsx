@@ -7,8 +7,8 @@ function App() {
   return (
     <>
      
-      <p className="bg-red-400 text-2xl">
-        Click on the Vite and React logos to learn more
+      <p className="text-red-600 font-bold text-2xl">
+        The News Portal
       </p>
     </>
   )
