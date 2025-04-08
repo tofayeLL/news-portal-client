@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <section>
-            <p className='text-red-500 text-3xl'>I am from home</p>
+        <section className='py-20 lg:px-14'>
+            <p className=''>I am from home</p>
             
         </section>
     );
