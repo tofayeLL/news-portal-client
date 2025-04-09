@@ -1,32 +1,31 @@
 import React from 'react';
-import { GoDotFill } from 'react-icons/go';
 
 const Banner = () => {
   return (
-    <section className="px-5 py-10 bg-gray-100 text-gray-800">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
-
+    <section className="px-4 md:px-5 py-6 md:py-10 bg-gray-100 text-gray-800">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8">
 
         {/* Left Column */}
         <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3">
           {/* First Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center space-x-2  text-gray-600">
-              <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-violet-600"></span>
-              <span className="text-xs font-bold tracking-wider uppercase ">Exclusive</span>
+            <h3 className="flex items-center space-x-2 text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
+              <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </a>
             <p className="text-xs text-gray-600">
               47 minutes ago by
-              <a href="#" className="hover:underline text-violet-600">Leroy Jenkins</a>
+              <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
             </p>
           </div>
+
           {/* Second Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center space-x-2  text-gray-600">
-              <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-violet-600"></span>
+            <h3 className="flex items-center space-x-2 text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
@@ -34,13 +33,14 @@ const Banner = () => {
             </a>
             <p className="text-xs text-gray-600">
               2 hours ago by
-              <a href="#" className="hover:underline text-violet-600">Leroy Jenkins</a>
+              <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
             </p>
           </div>
+
           {/* Third Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center space-x-2  text-gray-600">
-              <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-violet-600"></span>
+            <h3 className="flex items-center space-x-2 text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
@@ -48,9 +48,10 @@ const Banner = () => {
             </a>
             <p className="text-xs text-gray-600">
               4 hours ago by
-              <a href="#" className="hover:underline text-violet-600">Leroy Jenkins</a>
+              <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
             </p>
           </div>
+
           <div className="flex flex-col w-full space-y-2">
             <div className="h-1 bg-opacity-10 bg-violet-600">
               <div className="w-1/2 h-full bg-violet-600"></div>
@@ -65,86 +66,47 @@ const Banner = () => {
           </div>
         </div>
 
-
-
-
-        {/* Center Column (Background Image) */}
-        <div className="relative bg-center bg-cover bg-no-repeat xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96 space-y-4">
-
-
-          {/* card 1 */}
+        {/* Center Column */}
+        <div className="col-span-12 md:col-span-9 lg:col-span-5 xl:col-span-6 space-y-4">
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
               </h1>
             </a>
-
           </div>
-
-
-
-          {/* card 2 */}
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
               </h1>
             </a>
-
           </div>
-          {/* card 2 */}
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
               </h1>
             </a>
-
           </div>
-          {/* card 2 */}
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
               </h1>
             </a>
-
           </div>
-          {/* card 2 */}
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
               </h1>
             </a>
-
           </div>
-
-
-
-
-
-
         </div>
 
-
-
-
-
-
-
         {/* Right Column */}
-        <div className="hidden lg:block xl:col-span-3 lg:col-span-4 py-2">
-          {/* <div className="space-x-5 mb-8 border-b-2 border-opacity-10 border-violet-600">
-            <button className="pb-5 text-xs font-bold uppercase border-b-2 border-violet-600">Latest</button>
-            <button className="pb-5 text-xs font-bold uppercase text-gray-600">Popular</button>
-          </div> */}
+        <div className="block col-span-12 md:col-span-12 lg:col-span-4 xl:col-span-3 py-2">
           {/* First Right Card */}
           <div className="flex px-1 py-4 border-b-2">
             <img src="https://source.unsplash.com/random/244x324" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
@@ -156,6 +118,7 @@ const Banner = () => {
               </p>
             </div>
           </div>
+
           {/* Second Right Card */}
           <div className="flex px-1 py-4 border-b-2">
             <img src="https://source.unsplash.com/random/245x325" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
@@ -167,6 +130,7 @@ const Banner = () => {
               </p>
             </div>
           </div>
+
           {/* Third Right Card */}
           <div className="flex px-1 py-4 border-b-2">
             <img src="https://source.unsplash.com/random/246x326" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
@@ -178,6 +142,7 @@ const Banner = () => {
               </p>
             </div>
           </div>
+
           {/* Fourth Right Card */}
           <div className="flex px-1 py-4 border-b-2">
             <img src="https://source.unsplash.com/random/247x327" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
@@ -190,6 +155,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

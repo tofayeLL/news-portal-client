@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { RxHamburgerMenu } from 'react-icons/rx';
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
@@ -12,6 +13,7 @@ const Nav = () => {
     { path: '/international', label: 'International' },
     { path: '/sports', label: 'Sports' },
     { path: '/entertainment', label: 'Entertainment' },
+
   ];
 
   return (
@@ -19,7 +21,7 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 text-4xl font-bold font-mono">
+          <div className="flex-shrink-0 lg:text-4xl text-2xl font-bold font-mono">
             <Link to="/">
               <span className="text-purple-600">News</span> Portal
             </Link>
@@ -45,13 +47,19 @@ const Nav = () => {
               type="button"
               className="text-gray-800 hover:text-purple-600 focus:outline-none"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {isOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8h16M4 16h16" />
+                  <>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 12h16" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 18h16" />
+                  </>
                 )}
               </svg>
+
+              {/*  <RxHamburgerMenu className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"></RxHamburgerMenu> */}
             </button>
           </div>
         </div>
