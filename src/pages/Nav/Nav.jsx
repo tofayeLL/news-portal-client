@@ -1,3 +1,4 @@
+import moment from 'moment';
 import React, { useState } from 'react';
 import { IoMdSearch } from 'react-icons/io';
 import { RxHamburgerMenu } from 'react-icons/rx';
@@ -20,13 +21,15 @@ const Nav = () => {
 
   return (
     <nav className="w-full fixed z-50 top-0 bg-white shadow py-3">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0 lg:text-4xl text-2xl font-bold font-mono">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="flex justify-between items-center h-16 ">
+          {/* Logo Section */}
+          <div className=" flex justify-between items-center  text-center font-mono lg:text-4xl text-2xl font-bold space-y-1 ">
             <Link to="/">
-              <span className="text-purple-600">News</span> Portal
+              <span className="text-purple-600  ">News</span> Portal
             </Link>
+           {/*  <p className='text-base  font-thin'>Journalism Without Fear or Favour</p>
+            <p className='text-base font-thin'>{moment().format("dddd, MMMM D, YYYY")}</p> */}
           </div>
 
           {/* Desktop Nav */}
