@@ -73,7 +73,7 @@ const Banner = () => {
         {/* Center Column */}
         <div className="col-span-12 md:col-span-9 lg:col-span-5 xl:col-span-6 space-y-4    px-0 md:px-4 border-b md:border-b-0 md:border-r border-gray-300">
 
-          <div>
+          <div className='border-b-2 border-gray-300 pb-4'>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
@@ -81,7 +81,7 @@ const Banner = () => {
             </a>
           </div>
 
-          <div>
+          <div className='border-b-2 border-gray-300 pb-4'>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
@@ -89,7 +89,7 @@ const Banner = () => {
             </a>
           </div>
 
-          <div>
+          <div className='border-b-2 border-gray-300 pb-4'>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
