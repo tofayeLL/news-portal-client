@@ -5,8 +5,9 @@ const Banner = () => {
     <section className="px-4 md:px-5 py-6 md:py-10 bg-gray-100 text-gray-800">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8">
 
+
         {/* Left Column */}
-        <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3">
+        <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3 md:pr-4 border-b md:border-b-0 md:border-r border-gray-300">
           {/* First Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
             <h3 className="flex items-center space-x-2 text-gray-600">
@@ -66,8 +67,11 @@ const Banner = () => {
           </div>
         </div>
 
+
+
+
         {/* Center Column */}
-        <div className="col-span-12 md:col-span-9 lg:col-span-5 xl:col-span-6 space-y-4">
+        <div className="col-span-12 md:col-span-9 lg:col-span-5 xl:col-span-6 space-y-4    px-0 md:px-4 border-b md:border-b-0 md:border-r border-gray-300">
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
@@ -104,6 +108,8 @@ const Banner = () => {
             </a>
           </div>
         </div>
+
+
 
         {/* Right Column */}
         <div className="block col-span-12 md:col-span-12 lg:col-span-4 xl:col-span-3 py-2">
