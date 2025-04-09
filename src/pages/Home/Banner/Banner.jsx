@@ -1,8 +1,9 @@
 import React from 'react';
+import { GoDotFill } from 'react-icons/go';
 
 const Banner = () => {
   return (
-    <section className="px-5 py-10 dark:bg-gray-100 dark:text-gray-800">
+    <section className="px-5 py-10 bg-gray-100 text-gray-800">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
 
 
@@ -10,53 +11,53 @@ const Banner = () => {
         <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3">
           {/* First Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center space-x-2 dark:text-gray-600">
-              <span className="w-2 h-2 rounded-full dark:bg-violet-600"></span>
-              <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
+            <h3 className="flex items-center text-gray-600 ">
+              <span className="h-6 w-6 rounded-full text-violet-600 flex flex-col justify-normal items-center "><GoDotFill className='w-full h-full' ></GoDotFill></span>
+              <span className="text-xs font-bold tracking-wider uppercase ">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </a>
-            <p className="text-xs dark:text-gray-600">
+            <p className="text-xs text-gray-600">
               47 minutes ago by
-              <a href="#" className="hover:underline dark:text-violet-600">Leroy Jenkins</a>
+              <a href="#" className="hover:underline text-violet-600">Leroy Jenkins</a>
             </p>
           </div>
           {/* Second Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center space-x-2 dark:text-gray-600">
-              <span className="w-2 h-2 rounded-full dark:bg-violet-600"></span>
+            <h3 className="flex items-center  text-gray-600">
+            <span className="h-6 w-6 rounded-full text-violet-600 flex flex-col justify-normal items-center "><GoDotFill className='w-full h-full' ></GoDotFill></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
               Donec sed elit quis odio mollis dignissim eget et nulla.
             </a>
-            <p className="text-xs dark:text-gray-600">
+            <p className="text-xs text-gray-600">
               2 hours ago by
-              <a href="#" className="hover:underline dark:text-violet-600">Leroy Jenkins</a>
+              <a href="#" className="hover:underline text-violet-600">Leroy Jenkins</a>
             </p>
           </div>
           {/* Third Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center space-x-2 dark:text-gray-600">
-              <span className="w-2 h-2 rounded-full dark:bg-violet-600"></span>
+            <h3 className="flex items-center  text-gray-600">
+             <span className="h-6 w-6 rounded-full text-violet-600 flex flex-col justify-normal items-center "><GoDotFill className='w-full h-full' ></GoDotFill></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
               Nunc nec ipsum lobortis, pulvinar neque sed.
             </a>
-            <p className="text-xs dark:text-gray-600">
+            <p className="text-xs text-gray-600">
               4 hours ago by
-              <a href="#" className="hover:underline dark:text-violet-600">Leroy Jenkins</a>
+              <a href="#" className="hover:underline text-violet-600">Leroy Jenkins</a>
             </p>
           </div>
           <div className="flex flex-col w-full space-y-2">
-            <div className="h-1 bg-opacity-10 dark:bg-violet-600">
-              <div className="w-1/2 h-full dark:bg-violet-600"></div>
+            <div className="h-1 bg-opacity-10 bg-violet-600">
+              <div className="w-1/2 h-full bg-violet-600"></div>
             </div>
             <a href="#" className="flex items-center justify-between w-full">
               <span className="text-xs font-bold tracking-wider uppercase">See more exclusives</span>
-              <svg viewBox="0 0 24 24" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" className="w-4 strokeCurrent dark:text-violet-600">
+              <svg viewBox="0 0 24 24" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" className="w-4 strokeCurrent text-violet-600">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
@@ -69,15 +70,15 @@ const Banner = () => {
 
         {/* Center Column (Background Image) */}
         <div className="relative bg-center bg-cover bg-no-repeat xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96" style={{ backgroundImage: "url('https://source.unsplash.com/random/239x319')" }}>
-          <span className="absolute left-6 top-6 text-xs font-bold uppercase border-b-2 dark:text-gray-800 dark:border-violet-600">Paris, France</span>
-          <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b dark:from-gray-50 dark:to-gray-50" href="#">
-            <span className="flex items-center mb-4 space-x-2 dark:text-violet-600">
-              <span className="relative flex-shrink-0 w-2 h-2 rounded-full dark:bg-violet-600">
-                <span className="absolute flex-shrink-0 w-3 h-3 rounded-full -left-1 -top-1 animate-ping dark:bg-violet-600"></span>
+          <span className="absolute left-6 top-6 text-xs font-bold uppercase border-b-2 text-gray-800 border-violet-600">Paris, France</span>
+          <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
+            <span className="flex items-center mb-4 space-x-2 text-violet-600">
+              <span className="relative flex-shrink-0 w-2 h-2 rounded-full bg-violet-600">
+                <span className="absolute flex-shrink-0 w-3 h-3 rounded-full -left-1 -top-1 animate-ping bg-violet-600"></span>
               </span>
               <span className="text-sm font-bold">Live</span>
             </span>
-            <h1 className="font-serif text-2xl font-semibold group-hover:underline dark:text-gray-800">
+            <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
               Morbi mattis justo est, ac consectetur dui eleifend vitae. Donec venenatis?
             </h1>
           </a>
@@ -88,51 +89,51 @@ const Banner = () => {
 
         {/* Right Column */}
         <div className="hidden lg:block xl:col-span-3 lg:col-span-4 py-2">
-          {/* <div className="space-x-5 mb-8 border-b-2 border-opacity-10 dark:border-violet-600">
-            <button className="pb-5 text-xs font-bold uppercase border-b-2 dark:border-violet-600">Latest</button>
+          {/* <div className="space-x-5 mb-8 border-b-2 border-opacity-10 border-violet-600">
+            <button className="pb-5 text-xs font-bold uppercase border-b-2 border-violet-600">Latest</button>
             <button className="pb-5 text-xs font-bold uppercase text-gray-600">Popular</button>
           </div> */}
           {/* First Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/244x324" alt="" className="object-cover w-20 h-20 mr-4 dark:bg-gray-500" />
+            <img src="https://source.unsplash.com/random/244x324" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Aenean ac tristique lorem, ut mollis dui.</a>
-              <p className="mt-auto text-xs dark:text-gray-600">
+              <p className="mt-auto text-xs text-gray-600">
                 5 minutes ago
-                <a href="#" className="block dark:text-blue-600 lg:ml-2 lg:inline hover:underline">Politics</a>
+                <a href="#" className="block text-blue-600 lg:ml-2 lg:inline hover:underline">Politics</a>
               </p>
             </div>
           </div>
           {/* Second Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/245x325" alt="" className="object-cover w-20 h-20 mr-4 dark:bg-gray-500" />
+            <img src="https://source.unsplash.com/random/245x325" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Nulla consectetur efficitur.</a>
-              <p className="mt-auto text-xs dark:text-gray-600">
+              <p className="mt-auto text-xs text-gray-600">
                 14 minutes ago
-                <a href="#" className="block dark:text-blue-600 lg:ml-2 lg:inline hover:underline">Sports</a>
+                <a href="#" className="block text-blue-600 lg:ml-2 lg:inline hover:underline">Sports</a>
               </p>
             </div>
           </div>
           {/* Third Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/246x326" alt="" className="object-cover w-20 h-20 mr-4 dark:bg-gray-500" />
+            <img src="https://source.unsplash.com/random/246x326" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Vitae semper augue purus tincidunt libero.</a>
-              <p className="mt-auto text-xs dark:text-gray-600">
+              <p className="mt-auto text-xs text-gray-600">
                 22 minutes ago
-                <a href="#" className="block dark:text-blue-600 lg:ml-2 lg:inline hover:underline">World</a>
+                <a href="#" className="block text-blue-600 lg:ml-2 lg:inline hover:underline">World</a>
               </p>
             </div>
           </div>
           {/* Fourth Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/247x327" alt="" className="object-cover w-20 h-20 mr-4 dark:bg-gray-500" />
+            <img src="https://source.unsplash.com/random/247x327" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Suspendisse potenti.</a>
-              <p className="mt-auto text-xs dark:text-gray-600">
+              <p className="mt-auto text-xs text-gray-600">
                 37 minutes ago
-                <a href="#" className="block dark:text-blue-600 lg:ml-2 lg:inline hover:underline">Business</a>
+                <a href="#" className="block text-blue-600 lg:ml-2 lg:inline hover:underline">Business</a>
               </p>
             </div>
           </div>
