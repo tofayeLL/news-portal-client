@@ -15,11 +15,11 @@ const Nav = () => {
   ];
 
   return (
-    <nav className="w-full fixed z-50 top-0 bg-white shadow">
+    <nav className="w-full fixed z-50 top-0 bg-white shadow py-3">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 text-2xl font-bold font-mono">
+          <div className="flex-shrink-0 text-4xl font-bold font-mono">
             <Link to="/">
               <span className="text-purple-600">News</span> Portal
             </Link>
