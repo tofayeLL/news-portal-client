@@ -11,8 +11,8 @@ const Banner = () => {
         <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3">
           {/* First Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center text-gray-600 ">
-              <span className="h-6 w-6 rounded-full text-violet-600 flex flex-col justify-normal items-center "><GoDotFill className='w-full h-full' ></GoDotFill></span>
+            <h3 className="flex items-center space-x-2  text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase ">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
@@ -25,8 +25,8 @@ const Banner = () => {
           </div>
           {/* Second Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center  text-gray-600">
-            <span className="h-6 w-6 rounded-full text-violet-600 flex flex-col justify-normal items-center "><GoDotFill className='w-full h-full' ></GoDotFill></span>
+            <h3 className="flex items-center space-x-2  text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
@@ -39,8 +39,8 @@ const Banner = () => {
           </div>
           {/* Third Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
-            <h3 className="flex items-center  text-gray-600">
-             <span className="h-6 w-6 rounded-full text-violet-600 flex flex-col justify-normal items-center "><GoDotFill className='w-full h-full' ></GoDotFill></span>
+            <h3 className="flex items-center space-x-2  text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
             <a href="#" className="font-serif hover:underline">
@@ -69,20 +69,72 @@ const Banner = () => {
 
 
         {/* Center Column (Background Image) */}
-        <div className="relative bg-center bg-cover bg-no-repeat xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96" style={{ backgroundImage: "url('https://source.unsplash.com/random/239x319')" }}>
-          <span className="absolute left-6 top-6 text-xs font-bold uppercase border-b-2 text-gray-800 border-violet-600">Paris, France</span>
-          <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-            <span className="flex items-center mb-4 space-x-2 text-violet-600">
-              <span className="relative flex-shrink-0 w-2 h-2 rounded-full bg-violet-600">
-                <span className="absolute flex-shrink-0 w-3 h-3 rounded-full -left-1 -top-1 animate-ping bg-violet-600"></span>
-              </span>
-              <span className="text-sm font-bold">Live</span>
-            </span>
-            <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
-              Morbi mattis justo est, ac consectetur dui eleifend vitae. Donec venenatis?
-            </h1>
-          </a>
+        <div className="relative bg-center bg-cover bg-no-repeat xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96 space-y-4">
+
+
+          {/* card 1 */}
+          <div>
+            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
+
+              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
+              </h1>
+            </a>
+
+          </div>
+
+
+
+          {/* card 2 */}
+          <div>
+            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
+
+              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
+              </h1>
+            </a>
+
+          </div>
+          {/* card 2 */}
+          <div>
+            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
+
+              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
+              </h1>
+            </a>
+
+          </div>
+          {/* card 2 */}
+          <div>
+            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
+
+              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
+              </h1>
+            </a>
+
+          </div>
+          {/* card 2 */}
+          <div>
+            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
+
+              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
+              </h1>
+            </a>
+
+          </div>
+
+
+
+
+
+
         </div>
+
+
+
 
 
 
