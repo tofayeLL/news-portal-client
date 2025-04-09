@@ -8,63 +8,111 @@ const Banner = () => {
 
         {/* Left Column */}
         <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3 md:pr-4 border-b md:border-b-0 md:border-r border-gray-300">
+
+
           {/* First Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
+            {/* Category Label */}
             <h3 className="flex items-center space-x-2 text-gray-600">
               <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
-            <a href="#" className="font-serif hover:underline">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </a>
+
+            {/* Title and Image (Image will be to the right of title) */}
+            <div className="flex items-center space-x-3">
+              {/* Title */}
+              <a href="#" className="font-serif hover:underline text-lg text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </a>
+              {/* Image */}
+              <img src="https://i.ibb.co.com/gTkYQqw/image5.jpg" alt="News" className="w-20 h-20 object-cover rounded-sm" />
+
+            </div>
+            {/* Author/Date */}
             <p className="text-xs text-gray-600">
               47 minutes ago by
               <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
             </p>
           </div>
 
+
           {/* Second Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
+            {/* Category Label */}
             <h3 className="flex items-center space-x-2 text-gray-600">
               <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
-            <a href="#" className="font-serif hover:underline">
-              Donec sed elit quis odio mollis dignissim eget et nulla.
-            </a>
+
+            {/* Title and Image (Image will be to the right of title) */}
+            <div className="flex items-center space-x-3">
+              {/* Title */}
+              <a href="#" className="font-serif hover:underline text-lg text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </a>
+              {/* Image */}
+              <img src="https://i.ibb.co.com/gTkYQqw/image5.jpg" alt="News" className="w-20 h-20 object-cover rounded-sm" />
+
+            </div>
+            {/* Author/Date */}
             <p className="text-xs text-gray-600">
-              2 hours ago by
+              47 minutes ago by
               <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
             </p>
           </div>
+
 
           {/* Third Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
+            {/* Category Label */}
             <h3 className="flex items-center space-x-2 text-gray-600">
               <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
               <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
             </h3>
-            <a href="#" className="font-serif hover:underline">
-              Nunc nec ipsum lobortis, pulvinar neque sed.
-            </a>
+
+            {/* Title and Image (Image will be to the right of title) */}
+            <div className="flex items-center space-x-3">
+              {/* Title */}
+              <a href="#" className="font-serif hover:underline text-lg text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </a>
+              {/* Image */}
+              <img src="https://i.ibb.co.com/gTkYQqw/image5.jpg" alt="News" className="w-20 h-20 object-cover rounded-sm" />
+
+            </div>
+            {/* Author/Date */}
             <p className="text-xs text-gray-600">
-              4 hours ago by
+              47 minutes ago by
               <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
             </p>
           </div>
 
-          <div className="flex flex-col w-full space-y-2">
-            <div className="h-1 bg-opacity-10 bg-violet-600">
-              <div className="w-1/2 h-full bg-violet-600"></div>
+          {/* fourth card */}
+          <div className="flex flex-col space-y-2 border-b-2 pb-4">
+            {/* Category Label */}
+            <h3 className="flex items-center space-x-2 text-gray-600">
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-600"></span>
+              <span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
+            </h3>
+
+            {/* Title and Image (Image will be to the right of title) */}
+            <div className="flex items-center space-x-3">
+              {/* Title */}
+              <a href="#" className="font-serif hover:underline text-lg text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </a>
+              {/* Image */}
+              <img src="https://i.ibb.co/M23fhxm/unsplash-Eh-Tc-C9s-YXsw.png" alt="News" className="w-20 h-20 object-cover rounded-sm" />
+
             </div>
-            <a href="#" className="flex items-center justify-between w-full">
-              <span className="text-xs font-bold tracking-wider uppercase">See more exclusives</span>
-              <svg viewBox="0 0 24 24" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" className="w-4 strokeCurrent text-violet-600">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
+            {/* Author/Date */}
+            <p className="text-xs text-gray-600">
+              47 minutes ago by
+              <a href="#" className="hover:underline text-violet-600"> Leroy Jenkins</a>
+            </p>
           </div>
+
+
         </div>
 
 
@@ -99,71 +147,71 @@ const Banner = () => {
 
 
 
-        
 
-            {/* Grid layout: 3 columns x 2 rows */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4">
-              {/* card 1 */}
-              <div className="bg-white rounded-sm shadow overflow-hidden">
-                <img src="https://via.placeholder.com/400x200" alt="News 1" className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 1</h2>
-                  <p className="text-sm text-gray-600 mt-1">Short description of the first grid card goes here.</p>
-                </div>
+
+          {/* Grid layout: 3 columns x 2 rows */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-0">
+            {/* card 1 */}
+            <div className="bg-white rounded-sm shadow overflow-hidden">
+              <img src="https://via.placeholder.com/400x200" alt="News 1" className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 1</h2>
+                <p className="text-sm text-gray-600 mt-1">Short description of the first grid card goes here.</p>
               </div>
+            </div>
 
-              {/* card 2 */}
-              <div className="bg-white rounded-sm shadow overflow-hidden">
-                <img src="https://via.placeholder.com/400x200" alt="News 2" className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 2</h2>
-                  <p className="text-sm text-gray-600 mt-1">Short description of the second grid card goes here.</p>
-                </div>
+            {/* card 2 */}
+            <div className="bg-white rounded-sm shadow overflow-hidden">
+              <img src="https://via.placeholder.com/400x200" alt="News 2" className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 2</h2>
+                <p className="text-sm text-gray-600 mt-1">Short description of the second grid card goes here.</p>
               </div>
+            </div>
 
-              {/* card 3 */}
-              <div className="bg-white rounded-sm shadow overflow-hidden">
-                <img src="https://via.placeholder.com/400x200" alt="News 3" className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 3</h2>
-                  <p className="text-sm text-gray-600 mt-1">Short description of the third grid card goes here.</p>
-                </div>
-              </div>
-
-
-              {/* card 4 */}
-              <div className="bg-white rounded-sm shadow overflow-hidden">
-                <img src="https://via.placeholder.com/400x200" alt="News 4" className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 4</h2>
-                  <p className="text-sm text-gray-600 mt-1">Short description of the fourth grid card goes here.</p>
-                </div>
-              </div>
-
-
-              {/* card 5 */}
-              <div className="bg-white rounded-sm shadow overflow-hidden">
-                <img src="https://via.placeholder.com/400x200" alt="News 5" className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 5</h2>
-                  <p className="text-sm text-gray-600 mt-1">Short description of the fifth grid card goes here.</p>
-                </div>
-              </div>
-
-
-              {/* card 6 */}
-              <div className="bg-white rounded-sm shadow overflow-hidden">
-                <img src="https://via.placeholder.com/400x200" alt="News 6" className="w-full h-40 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 6</h2>
-                  <p className="text-sm text-gray-600 mt-1">Short description of the sixth grid card goes here.</p>
-                </div>
+            {/* card 3 */}
+            <div className="bg-white rounded-sm shadow overflow-hidden">
+              <img src="https://via.placeholder.com/400x200" alt="News 3" className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 3</h2>
+                <p className="text-sm text-gray-600 mt-1">Short description of the third grid card goes here.</p>
               </div>
             </div>
 
 
+            {/* card 4 */}
+            <div className="bg-white rounded-sm shadow overflow-hidden">
+              <img src="https://via.placeholder.com/400x200" alt="News 4" className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 4</h2>
+                <p className="text-sm text-gray-600 mt-1">Short description of the fourth grid card goes here.</p>
+              </div>
+            </div>
 
-        
+
+            {/* card 5 */}
+            <div className="bg-white rounded-sm shadow overflow-hidden">
+              <img src="https://via.placeholder.com/400x200" alt="News 5" className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 5</h2>
+                <p className="text-sm text-gray-600 mt-1">Short description of the fifth grid card goes here.</p>
+              </div>
+            </div>
+
+
+            {/* card 6 */}
+            <div className="bg-white rounded-sm shadow overflow-hidden">
+              <img src="https://via.placeholder.com/400x200" alt="News 6" className="w-full h-40 object-cover" />
+              <div className="p-4">
+                <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 6</h2>
+                <p className="text-sm text-gray-600 mt-1">Short description of the sixth grid card goes here.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
 
 
 
