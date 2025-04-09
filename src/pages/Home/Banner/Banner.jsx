@@ -72,6 +72,7 @@ const Banner = () => {
 
         {/* Center Column */}
         <div className="col-span-12 md:col-span-9 lg:col-span-5 xl:col-span-6 space-y-4    px-0 md:px-4 border-b md:border-b-0 md:border-r border-gray-300">
+
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
@@ -79,6 +80,7 @@ const Banner = () => {
               </h1>
             </a>
           </div>
+
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
@@ -86,6 +88,7 @@ const Banner = () => {
               </h1>
             </a>
           </div>
+
           <div>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
@@ -93,21 +96,82 @@ const Banner = () => {
               </h1>
             </a>
           </div>
-          <div>
-            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
-              </h1>
-            </a>
-          </div>
-          <div>
-            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
-              </h1>
-            </a>
-          </div>
+
+
+
+        
+
+            {/* Grid layout: 3 columns x 2 rows */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4">
+              {/* card 1 */}
+              <div className="bg-white rounded-sm shadow overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="News 1" className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 1</h2>
+                  <p className="text-sm text-gray-600 mt-1">Short description of the first grid card goes here.</p>
+                </div>
+              </div>
+
+              {/* card 2 */}
+              <div className="bg-white rounded-sm shadow overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="News 2" className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 2</h2>
+                  <p className="text-sm text-gray-600 mt-1">Short description of the second grid card goes here.</p>
+                </div>
+              </div>
+
+              {/* card 3 */}
+              <div className="bg-white rounded-sm shadow overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="News 3" className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 3</h2>
+                  <p className="text-sm text-gray-600 mt-1">Short description of the third grid card goes here.</p>
+                </div>
+              </div>
+
+
+              {/* card 4 */}
+              <div className="bg-white rounded-sm shadow overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="News 4" className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 4</h2>
+                  <p className="text-sm text-gray-600 mt-1">Short description of the fourth grid card goes here.</p>
+                </div>
+              </div>
+
+
+              {/* card 5 */}
+              <div className="bg-white rounded-sm shadow overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="News 5" className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 5</h2>
+                  <p className="text-sm text-gray-600 mt-1">Short description of the fifth grid card goes here.</p>
+                </div>
+              </div>
+
+
+              {/* card 6 */}
+              <div className="bg-white rounded-sm shadow overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="News 6" className="w-full h-40 object-cover" />
+                <div className="p-4">
+                  <h2 className="text-lg font-bold text-gray-800 hover:underline">Grid Card Title 6</h2>
+                  <p className="text-sm text-gray-600 mt-1">Short description of the sixth grid card goes here.</p>
+                </div>
+              </div>
+            </div>
+
+
+
+        
+
+
+
         </div>
+
+
+
+
 
 
 
@@ -147,7 +211,7 @@ const Banner = () => {
                 <a href="#" className="block text-blue-600 lg:ml-2 lg:inline hover:underline">World</a>
               </p>
             </div>
-          </div> 
+          </div>
 
           {/* Fourth Right Card */}
           <div className="flex px-1 py-4 border-b-2">
