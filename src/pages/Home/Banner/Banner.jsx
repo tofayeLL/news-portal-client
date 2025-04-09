@@ -147,7 +147,7 @@ const Banner = () => {
                 <a href="#" className="block text-blue-600 lg:ml-2 lg:inline hover:underline">World</a>
               </p>
             </div>
-          </div>
+          </div> 
 
           {/* Fourth Right Card */}
           <div className="flex px-1 py-4 border-b-2">

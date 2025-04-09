@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { IoMdSearch } from 'react-icons/io';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +15,7 @@ const Nav = () => {
     { path: '/sports', label: 'Sports' },
     { path: '/entertainment', label: 'Entertainment' },
 
+
   ];
 
   return (
@@ -28,16 +30,36 @@ const Nav = () => {
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-6 lg:flex justify-center items-center  ">
             {navItems.map(({ path, label }) => (
               <Link
                 key={path}
                 to={path}
-                className="text-gray-800 text-base hover:text-purple-600 transition-colors duration-200"
+                className="text-gray-800 text-base hover:text-purple-600 transition-colors duration-200 pr-[1px] font-semibold"
               >
                 {label}
               </Link>
             ))}
+
+            <Link
+
+              to="/search"
+              className="text-gray-800 text-base hover:text-purple-600 transition-colors duration-200 border-l-[1px] border-gray-500 pl-4 font-semibold"
+            >
+             <div className='flex justify-center items-center gap-1'>
+             <span><IoMdSearch className='h-7 w-7' ></IoMdSearch></span>search
+             </div>
+            </Link>
+
+
+            <Link
+
+              to="/login"
+              className="text-gray-800 text-base hover:text-purple-600 transition-colors duration-200 border-l-[1px] border-gray-500 pl-4 font-semibold"
+            >
+              login
+            </Link>
+
           </div>
 
           {/* Mobile Menu Button */}
