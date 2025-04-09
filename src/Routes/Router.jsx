@@ -5,6 +5,7 @@ import {
 import Home from "../pages/Home/Home";
 import Root from "../Layouts/Root";
 import AllNews from "../pages/AllNews/AllNews";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 
 
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement: <ErrorPage></ErrorPage>,   
       children:[
        {
         path:"/",
@@ -26,7 +28,8 @@ export const router = createBrowserRouter([
         element:<AllNews></AllNews>
        },
        
-      ]
+      ],
+      
     },
   ]);
 
