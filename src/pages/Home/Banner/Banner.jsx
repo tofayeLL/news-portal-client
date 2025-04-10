@@ -7,7 +7,7 @@ const Banner = () => {
 
 
         {/* Left Column */}
-        <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3 md:pr-4 border-b md:border-b-0 md:border-r border-gray-300 ">
+        <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3 md:pr-4 border-b md:border-b-0 md:border-r-2 border-gray-400 ">
 
 
           {/* First Card */}
@@ -205,7 +205,7 @@ const Banner = () => {
 
             {/* card 4 */}
             <div className="bg-white rounded-sm shadow overflow-hidden">
-              <img src="https://via.placeholder.com/400x200" alt="News 4" className="w-full h-40 object-cover" />
+              <img src="https://i.ibb.co/T0PnZxD/unsplash-Eh-Tc-C9s-YXsw-8.png" alt="News 4" className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h2 className="text-lg font-bold text-gray-800 hover:underline">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
                 <p className="text-sm text-gray-600 mt-1">Short description of the fourth grid card goes here.</p>
@@ -215,7 +215,7 @@ const Banner = () => {
 
             {/* card 5 */}
             <div className="bg-white rounded-sm shadow overflow-hidden">
-              <img src="https://via.placeholder.com/400x200" alt="News 5" className="w-full h-40 object-cover" />
+              <img src="https://i.ibb.co/T0PnZxD/unsplash-Eh-Tc-C9s-YXsw-8.png" alt="News 5" className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h2 className="text-lg font-bold text-gray-800 hover:underline">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
                 <p className="text-sm text-gray-600 mt-1">Short description of the fifth grid card goes here.</p>
@@ -225,7 +225,7 @@ const Banner = () => {
 
             {/* card 6 */}
             <div className="bg-white rounded-sm shadow overflow-hidden">
-              <img src="https://via.placeholder.com/400x200" alt="News 6" className="w-full h-40 object-cover" />
+              <img src="https://i.ibb.co/T0PnZxD/unsplash-Eh-Tc-C9s-YXsw-8.png" alt="News 6" className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h2 className="text-lg font-bold text-gray-800 hover:underline">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
                 <p className="text-sm text-gray-600 mt-1">Short description of the sixth grid card goes here.</p>
@@ -248,7 +248,7 @@ const Banner = () => {
 
 
         {/* Right Column */}
-        <div className="block col-span-12 md:col-span-12 lg:col-span-4 xl:col-span-3 py-2 md:border-l border-gray-300 md:pl-4 pl-0">
+        <div className="block col-span-12 md:col-span-12 lg:col-span-4 xl:col-span-3 py-2 md:border-l-2 border-gray-400 md:pl-4 pl-0">
           {/* First Right Card */}
           <div className="flex px-1 py-4 border-b-2">
             <img src="https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
@@ -263,7 +263,7 @@ const Banner = () => {
 
           {/* Second Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/245x325" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
+            <img src="https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Nulla consectetur efficitur.</a>
               <p className="mt-auto text-xs text-gray-600">
@@ -275,7 +275,7 @@ const Banner = () => {
 
           {/* Third Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/246x326" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
+            <img src="https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Vitae semper augue purus tincidunt libero.</a>
               <p className="mt-auto text-xs text-gray-600">
@@ -287,7 +287,7 @@ const Banner = () => {
 
           {/* Fourth Right Card */}
           <div className="flex px-1 py-4 border-b-2">
-            <img src="https://source.unsplash.com/random/247x327" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
+            <img src="https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
             <div className="flex flex-col flex-grow">
               <a href="#" className="font-serif hover:underline">Suspendisse potenti.</a>
               <p className="mt-auto text-xs text-gray-600">

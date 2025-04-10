@@ -2,7 +2,7 @@ import React from 'react';
 
 const AllNews = () => {
     return (
-        <div className='pt-20 lg:px-16'>
+        <div className='pt-24 lg:px-14'>
             <p>I am form all news page</p>
             
         </div>
