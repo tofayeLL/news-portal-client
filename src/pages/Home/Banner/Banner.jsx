@@ -9,7 +9,6 @@ const Banner = () => {
         {/* Left Column */}
         <div className="flex flex-col space-y-8 md:space-y-16 col-span-12 md:col-span-3 md:pr-4 border-b md:border-b-0 md:border-r-2 border-gray-400 ">
 
-
           {/* First Card */}
           <div className="flex flex-col space-y-2 border-b-2 pb-4">
             {/* Category Label */}
@@ -112,7 +111,6 @@ const Banner = () => {
             </p>
           </div>
 
-
         </div>
 
 
@@ -120,8 +118,6 @@ const Banner = () => {
 
         {/* Center Column */}
         <div className="col-span-12 md:col-span-9 lg:col-span-5 xl:col-span-6 space-y-4    px-0 md:px-0 border-b md:border-b-0    ">
-
-
 
           {/* card 1 */}
           <div className="border-b-2 border-gray-300 pb-4">
@@ -132,7 +128,6 @@ const Banner = () => {
               </h1>
 
               {/* Image */}
-            
              <img
                 src="https://i.ibb.co/M23fhxm/unsplash-Eh-Tc-C9s-YXsw.png"
                 alt="News"
@@ -168,8 +163,6 @@ const Banner = () => {
               </h1>
             </a>
           </div>
-
-
 
 
 
@@ -235,11 +228,8 @@ const Banner = () => {
 
 
 
-
-
-
-
         </div>
+
 
 
 
@@ -249,6 +239,7 @@ const Banner = () => {
 
         {/* Right Column */}
         <div className="block col-span-12 md:col-span-12 lg:col-span-4 xl:col-span-3 py-2 md:border-l-2 border-gray-400 md:pl-4 pl-0">
+
           {/* First Right Card */}
           <div className="flex px-1 py-4 border-b-2">
             <img src="https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png" alt="" className="object-cover w-20 h-20 mr-4 bg-gray-500" />
