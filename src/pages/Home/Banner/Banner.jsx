@@ -2,8 +2,8 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <section className="px-4 md:px-5 py-6 md:py-10 bg-gray-100 text-gray-800">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-4">
+    <section className="py-6 md:py-10 bg-red-100 text-gray-800">
+      <div className="p-2 md:p-4 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-4 ">
 
 
         {/* Left Column */}
@@ -148,14 +148,33 @@ const Banner = () => {
           </div>
 
 
-          <div className='border-b-2 border-gray-300 pb-4'>
-            <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
-              <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
+             {/* card 2 */}
+             <div className="border-b-2 border-gray-300 pb-4">
+            <a href="#" className="flex flex-col items-start p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50">
+              {/* Title */}
+              <h1 className="font-serif text-2xl font-semibold text-gray-800 group-hover:underline">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas nemo pariatur, numquam nobis enim.
               </h1>
+
+              {/* Image */}
+             <img
+                src="https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png"
+                alt="News"
+                className="w-full h-48 object-cover  mt-4 rounded-lg"
+              />
+          
+
+              {/* Description */}
+              <p className="text-sm text-gray-600 mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis quam vitae felis suscipit, at tincidunt nunc pharetra.
+              </p>
+
+              {/* Read More link */}
+              <span className="mt-2 text-sm text-violet-600 hover:underline">
+                Read more...
+              </span>
             </a>
           </div>
-
           <div className='border-b-2 border-gray-300 pb-4'>
             <a className="flex flex-col items-center justify-end p-6 sm:p-8 group bg-gradient-to-b from-gray-50 to-gray-50" href="#">
               <h1 className="font-serif text-2xl font-semibold group-hover:underline text-gray-800">
