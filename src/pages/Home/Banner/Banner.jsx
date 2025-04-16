@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <section className="py-6 md:py-10 bg-red-100 text-gray-800">
+    <section className="py-6 md:py-10  text-gray-800">
       <div className="p-2 md:p-4 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-4 ">
 
 
@@ -112,6 +112,9 @@ const Banner = () => {
           </div>
 
         </div>
+
+
+
 
 
 
